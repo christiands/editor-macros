@@ -10,7 +10,7 @@
 	(setq toplim (read-number "Upper Limit? :"))
 	(setq space "")
 
-	(if (> botlim toplim) (error "ERR: toplim > botlim"))
+	(if (> botlim toplim) (error "ERR: botlim > toplim"))
 	(if spacebool (setq space " ")) 
 
 	(while (<= botlim toplim)
